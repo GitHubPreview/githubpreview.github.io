@@ -126,7 +126,7 @@
   };
 
   fetchProxy(url, null, 0).then(loadHTML).catch(function (error) {
-    location.href = location.href.replace(location.search, '').replace('html.html', 'index.html') + '?err=' + error;
+    location.href = location.href.replace(location.search, '').replace('html.html', '') + '?err=' + error;
     console.error(error);
     previewForm.style.display = 'block';
     previewForm.innerHTML = error;
