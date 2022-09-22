@@ -1,0 +1,24 @@
+apps = [
+  {
+    "id": "chat",
+    "name": "Chat for School",
+    "description": "Chat for School",
+    "author": "Jining Liu",
+    "group": null,
+    "version": "1.1.5-6",
+    "build": "43",
+    "url": "https://github.com/JiningLiu/chat/blob/release/index.html",
+    "directory": "JiningLiu/chat/release/index.html"
+  },
+  {
+    "id": "minesweeper",
+    "name": "Minesweeper",
+    "description": "Minesweeper",
+    "author": "David Simionescu",
+    "group": null,
+    "version": "1.0",
+    "build": "1",
+    "url": "https://github.com/JiningLiu/minesweeper-by-wonk2/blob/main/index.html",
+    "directory": "JiningLiu/minesweeper-by-wonk2/main/index.html"
+  }
+]

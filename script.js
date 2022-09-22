@@ -2,9 +2,13 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 
 const err = urlParams.get('err');
+const app = urlParams.get('app')
 
 if (err) {
   alert('Error: ' + err);
+} else if (app) {
+  console.log(apps);
+  location.href = location.href.replace(location.search, '').replace('index.html', '') + 'html.html?url=' + ;
 }
 
 function html() {
