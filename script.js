@@ -4,6 +4,8 @@ const urlParams = new URLSearchParams(queryString);
 const err = urlParams.get('err');
 const app = urlParams.get('app')
 
+const apps = require('apps.json');
+
 if (err) {
   alert('Error: ' + err);
 } else if (app) {
