@@ -10,7 +10,12 @@ if (err) {
   alert('Error: ' + err);
 } else if (app) {
   console.log(apps);
-  location.href = location.href.replace(location.search, '').replace('index.html', '') + 'html.html?url=' + ;
+  const appUrl = JSON.parse(apps)[app]['url'];
+  if (appUrl) {
+    location.href = location.href.replace(location.search, '').replace('index.html', '') + 'html.html?url=' + appUrl;
+  } else {
+    alert('App with App ID "' + app + '" doesn\'t exist!');
+  }
 }
 
 function html() {

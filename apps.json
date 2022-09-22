@@ -1,6 +1,5 @@
-apps = [
-  {
-    "id": "chat",
+[
+  "chat": {
     "name": "Chat for School",
     "description": "Chat for School",
     "author": "Jining Liu",
@@ -10,8 +9,7 @@ apps = [
     "url": "https://github.com/JiningLiu/chat/blob/release/index.html",
     "directory": "JiningLiu/chat/release/index.html"
   },
-  {
-    "id": "minesweeper",
+  "minesweeper": {
     "name": "Minesweeper",
     "description": "Minesweeper",
     "author": "David Simionescu",
